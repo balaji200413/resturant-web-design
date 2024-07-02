@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=swap');
+
+body{
+    font-family:"spline sans",sans-serif;
+    color:#777;
+    line-height:1.7;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 600;
+    color:#222;
+}
+a{
+    color:#222;
+    text-decoration: none;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+a:hover{
+    color:#f58d17;
+}
+.btn-brand{
+    background-color: #f58d17;
+    color: white;
+    font-weight: 500;
+}
+.btn{
+    padding: 10px 20px;
+}
+.btn:hover{
+    background-color:#ce740e ;
+    border-color: #cc740e;
+}
+.shadow-on-hover{
+    transition :all  0.3s ;
+}
+.shadow-on-hover:hover{
+    box-shadow:0 20px 40px rgba(0, 0, 0, 0.3) ;
+}
+.slide-1{
+    background-image:url(./images/home-bg1.jpg);
+}
+.slide-2{
+    background-image:url(./images/home-bg2.avif);
+}
+#heroslide h6::after,
+#heroslide h6::before{
+    content:" ";
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    display:inline-block;
+    margin:5px;
+    vertical-align: middle;
+
+}
+.bg-cover{
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    background-color: #222;
+    width: 40px;
+    height: 70px;
+    margin: auto;
+}
+.img-1{
+    width:100%;
+
+}
+.about-sec{
+    padding: 110px 0px;
+}
+.divider{
+    width:120px;
+    height: 2px;
+    background-color: #cc740e;
+}
+.intro-text{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.intro-text p{
+    max-width: 500px;
+    margin:20px auto 0 auto;
+}
+#menu .nav-pills .nav-link{
+        background-color: white;
+        margin: 0px 10px 0px 10px;
+        color: black;
+        border-radius: 100px;
+        box-shadow:0px 10px 40px rgba(0, 0, 0, 0.2);
+}
+#menu .nav-pills .nav-link.active{
+    background-color:#f58d17;
+    color: white;
+} 
+.star{
+    color: #f58d17;
+}
+#features{
+     background-image:url("./images/feature-bg2.jpg");
+}
+.feature{
+     border: 2px solid rgba(255,255,255,0.5);
+}
+.feature .feature-icon{
+    width:50px ;
+    height:50px;
+    background-color: #f58d17;
+    color: white;
+    font-size:28px;
+    display:inline-flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.team-member img{
+    width:130px;
+    height: 120px;
+    border-radius:100%;
+    box-shadow:-10px -10px 0 #f58d17 ;
+
+}
+#review{
+    background-image:linear-gradient(rgba(39, 38, 38, 0.5),rgba(31, 30, 30, 0.5)),url(./images/bg-4.avif);
+}
+.review img{
+    width: 75px;
+    height:75px;
+    object-fit: cover;
+}
+.review .quote-icon{
+    font-size: 74px;
+    color: #f58d17;
+}
